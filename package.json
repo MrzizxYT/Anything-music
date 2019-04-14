@@ -1,4 +1,12 @@
+
 {
+  "name": "mohamed",
+  "version": "2.1.0",
+  "description": "-- AWESOMENESS --",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "and": "0.0.3",
     "hastebin-gen": "^1.3.1",
@@ -46,15 +54,7 @@
     "ytdl-core": "^0.21.1",
     "zalgolize": "^1.2.4"
   },
-
-  "keywords": [
-    "heroku",
-    "discord.js"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
-  },
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme"
+  "engines": {
+    "node": "8.x"
+  }
 }
